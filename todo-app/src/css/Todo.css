@@ -1,0 +1,58 @@
+/* .todoButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task {
+    display: text;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.5rem;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+} */
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.5rem;
+  background-color: #f4f4f4;
+  margin-top: 20px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 22px;
+  transition: 0.2s;
+}
+
+.editIcon:hover {
+  color: orange;
+  transform: scale(1.1);
+}
+
+.deleteIcon:hover {
+  color: red;
+  transform: scale(1.1);
+}
